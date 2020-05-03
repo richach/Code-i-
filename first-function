@@ -1,0 +1,13 @@
+# Code-i-
+//Learn to code from scratch....even i am learning. Why not you?
+
+#include<iostream>
+using namespace std;
+void hello() // a function without argument, So, using void as void does not return anything.
+	cout<<"hello world";
+}
+
+int main()
+{
+  hello(); //calling function
+}
