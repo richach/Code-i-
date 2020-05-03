@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+//This is a function decleration, it's important when you are using a function even before defining it.
+int sum(int, int); 
+
+int main()
+{
+int result=sum(3,4);
+cout<<result;	
+}
+// This is a function definition
+int sum(int a,int b)
+{
+	return a+b;
+}
