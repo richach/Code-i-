@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-//This is a function decleration, it's important when you are using a function even before defining it.
+//This is a function declaration, it's important when you are using a function even before defining it.
 int sum(int, int); 
 
 int main()
