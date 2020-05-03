@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+//This is a function definition. Since, we have declared it above the main funcion, we do not have to write function declaration.
+int sum(int a,int b)
+{
+	return a+b;
+}
+
+int main()
+{
+int result=sum(3,4);
+cout<<result;	
+}
+
