@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int arr[5],i;
+	
+	for(i=0;i<5;i++)
+		{
+    
+    /** since i used integer here so, in c++ size of integer is 4 bytes.
+       here lets assume the address of arr[0] is x. so address of arr[1] would be x+ sizeof(int) and arr[2] is x+ sizeof(int) + sizeof(int) 
+       and so on.**/
+       
+		   cout<<"address of array element are : "<< &arr[i] <<endl; 
+       
+       
+		}
+	
+}
