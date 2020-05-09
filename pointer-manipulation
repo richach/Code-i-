@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+void pointerManupulation(int *a)
+{
+	cout<<"received value is : "<<*a<<endl; // output :5
+	
+	*a=100;
+	cout<<" changed value is :"<<*a<<endl; // output: 100
+
+}
+ 
+int main()
+{
+	int num=5;
+	pointerManupulation(&num);
+	cout<<"inside main the value of num is :"<<num; //output :100
+	
+	
+
+	
+}
