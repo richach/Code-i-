@@ -1,0 +1,36 @@
+//program to reverse an array without using another array
+
+#include<iostream>
+#define MAX_SIZE 50
+using namespace std;
+int main()
+{
+	
+	int arr[MAX_SIZE];
+	int i,size,revindex,orgindex,temp;
+	
+	cout<<"size :"<<endl;
+	cin>>size;
+	
+	for(i=0;i<=size-1;i++)
+    {
+      cin>>arr[i];
+    }
+	
+	orgindex=0;
+	revindex=size-1;
+  
+	while(revindex > orgindex)
+    {
+      temp=arr[orgindex];
+      arr[orgindex]=arr[revindex];
+      arr[revindex]=temp;
+
+      orgindex++;
+      revindex--;
+    }
+	for(i=0;i<=size-1;i++)
+    {
+      cout<<"print : "<<arr[i]<<endl;
+    }
+}
