@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+	int max(int x, int y)
+	{
+		if(x>y)
+		
+		return x;
+		else
+		return y;
+		
+	}
+	
+	int main()
+	{
+		int m,a,b;
+		
+		cout<<"enter the value of a :"<<endl;
+		cin>>a;
+		cout<<"enter the value of b :"<<endl;
+		cin>>b;
+		
+		m=max(a,b);
+		
+		cout<<"The hightest number between a & b is : "<<m;
+	}
