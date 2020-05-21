@@ -1,0 +1,33 @@
+//print number between 1 to 10 using static vaariable (FYI: no loop, no recursion)
+
+#include<iostream>
+using namespace std;
+
+void test()
+{
+	static int var=0;
+	var++;
+	
+	cout<< var <<endl;
+}
+
+int main()
+{
+		test();
+		test();
+		test();	
+		test();
+		test();
+		test();
+	
+		test();
+		test();
+		test();
+    test();
+
+
+	
+	return 0;
+}
+
+output: 1 2 3 4 5 6 7 8 9 10 (vertically)
