@@ -1,0 +1,31 @@
+//structure code
+#include<iostream>
+using namespace std;
+
+struct person
+{
+	char name[50];
+	int age;
+	float salary;
+	
+};
+
+int main()
+{
+	person p1;
+	
+	cout<<"enter the full name: "<<endl;
+	cin.get(p1.name,50);
+	cout<<"enter your age : "<<endl;
+	cin>>p1.age;
+	cout<<"enter your salary amount  :"<<endl;
+	cin>>p1.salary;
+	
+	cout<<"*** Displaying Information ***"<<endl;
+	cout<<p1.name<<endl;
+	cout<<p1.age<<endl;
+	cout<<p1.salary<<endl;
+	
+	return 0;
+	
+}
