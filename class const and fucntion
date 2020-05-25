@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+class Boy
+{
+
+	public:
+	    Boy()
+	    {
+	    	cout<<"my name is ";
+	    	display(); //function called inside constructor
+		}
+	void display()
+	{
+		cout<<"Richa"<<endl;
+	}
+
+};
+
+int main()
+{
+	Boy b1[2];
+
+}
+Output : my name is Richa
+         my name is Richa
