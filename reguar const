@@ -1,0 +1,19 @@
+
+//Parameterized or regular constructor
+
+#include<iostream>
+using namespace std;
+
+class sample
+{
+	public:
+		sample(int x, int y)
+		{
+			cout<<"The sum of x ad y is : "<<" "<<x+y;
+		}
+};
+
+int main()
+{
+	sample obj(3,5); //implicit
+}
