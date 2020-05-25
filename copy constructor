@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+
+class today
+{
+	public:
+		int x,y;
+		today(int a, int b)
+		{
+			x=a;
+			y=b;
+	
+		}
+		
+		void display()
+		{
+			cout<<"the value of x is : "<<x<<endl;
+			cout<<"the value of y is : "<<y<<endl;
+		}
+};
+
+int main()
+{
+	today obj(3,4);
+	today obj1(obj);  // Copy Constructor
+	obj.display();
+	obj1.display();
+	
+}
+
+Output : 
+the value of x is : 3
+the value of y is : 4
+the value of x is : 3
+the value of y is : 4
