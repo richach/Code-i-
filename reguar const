@@ -16,4 +16,6 @@ class sample
 int main()
 {
 	sample obj(3,5); //implicit
+	
+	// sample obj=sample(3,5)   -> explicit . 
 }
